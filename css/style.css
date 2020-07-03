@@ -104,12 +104,20 @@ article .skills{
   border-bottom: 1px solid #ffffff;
 }
 
-.project > div > img{
-  max-width: 100%;
+.project > img{
+  display: inline;
+  max-width: 60%;
   height: auto;
   border-radius: 5px;
+  float: left;
 }
 
+article .description{
+  display: inline;
+  max-width: 30%;
+  max-height: 30%;
+  float: right;
+}
 article .description h3{
   padding-top: 1em;
   text-align: center;
