@@ -1,124 +1,85 @@
-*{
+* {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  justify-content: center;
   overflow-x: hidden;
 }
-
-/*Header*/
-header{
-  width: 100vw;
-  height: 100vh;
-  background-color: #85ffdc;
-  text-align: center;
-}
-
-header h1{
-  font-weight: bold;
-  font-size: 3em;
-  padding: 10px;
-}
-
-/*Global styling*/
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-/*articles*/
-
-article{
-  width: 70vw;
-  margin: auto;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-article h1{
-  padding: 1em;
-  text-align: center;
-}
-
-article p{
-  padding: 1em;
-}
-
-#portrait > img{
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1em;
-}
-
-article .skills{
-  min-width: 200px;
-  padding-top: 1em;
-  padding-left: auto;
-  padding-right: auto;
-}
-
-/*tiles*/
-
-.tile{
+nav {
+  position: fixed;
   display: inline-block;
-  width: 32%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
   text-align: center;
-}
-.tile > h1{
-  font-size: 1.2em;
-  padding-bottom: .5em;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
-.tile > p{
-  font-size: .9em;
-  margin: 0px;
-  padding: 0px;
+nav a {
+  padding: 2rem;
+  text-decoration: none;
 }
-.tile img{
-  max-width: 40%;
-  height: auto;
+
+header {
+  padding-top: 3rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+}
+
+.aboutMe {
+  text-align: center;
+  background-color: orange;
+  padding: 5rem;
+}
+
+.photo > img {
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+.intro {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.container {
+  margin: 1rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  text-align: center;
+  background-color: orange;
+}
+
+.container > h1 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*Portfolio*/
-
-.portfolio{
-  background-color: #85ffdc;
-  width: 100vw;
-  min-height: 100vh;
-}
-
-.project{
-  width: 70%;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #ffffff;
-}
-
-.project > img{
-  display: inline;
-  max-width: 60%;
-  height: auto;
-  border-radius: 5px;
-  float: left;
-}
-
-article .description{
-  display: inline;
-  max-width: 30%;
-  max-height: 30%;
-  float: right;
-}
-article .description h3{
-  padding-top: 1em;
+  width: 100%;
   text-align: center;
+}
+
+.tech > img {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.portfolio {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.portfolio img {
+  width: 50%;
 }
