@@ -64,9 +64,21 @@ nav a {
   z-index: 101;
   top: 0;
   left: 0;
-  background: orange;
-  width: 80%;
+  background: rgba(152, 251, 152, 0.75);
+  width: 30%;
   height: 100vh;
+}
+
+.mobile-nav-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.mobile-nav-items a:hover {
+  color: white;
 }
 
 .landing {
@@ -87,25 +99,28 @@ nav a {
 }
 
 .photo > img {
-  margin-top: 2rem;
+  margin: 2rem;
   border-radius: 50%;
 }
 
 .intro {
   text-align: left;
-  margin: 2rem 0;
+  width: 50%;
+  margin: auto;
 }
 
 .container {
-  margin: 1rem;
+  padding-top: 1rem;
+  margin: auto;
   display: flex;
-  width: 100%;
+  width: 60%;
   align-items: center;
   justify-content: center;
 }
 
 .skills {
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .container > h1 {
@@ -122,13 +137,47 @@ nav a {
 
 .portfolio {
   text-align: center;
-  margin-top: 5rem;
+  padding: 5rem 0;
+  background: aqua;
 }
 
 .portfolio img {
-  width: 50%;
+  margin: 2rem;
+  width: 90%;
+  border-radius: 1rem;
 }
 
 .open {
   display: block !important;
+}
+
+.project-l {
+  display: flex;
+}
+
+.project-l p {
+  padding: 1rem;
+}
+.project-l > .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 2rem;
+}
+
+.project-r {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project-r p {
+  padding: 1rem;
+}
+.project-r > .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 2rem;
 }
