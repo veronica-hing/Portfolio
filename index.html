@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veronica Hing</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
@@ -26,7 +27,7 @@
         <a class = "contact-link"href = "#contact">Contact</a>
       </div>
     </nav>
-    <main>
+    <!-- <main> -->
       <div class= "landing">
         <h1>Veronica Hing</h1>
         <h4>Full-Stack Software Engineer</h4>
@@ -72,29 +73,37 @@
         <div class= "portfolio">
           <h1>Portfolio</h1>
             <div class = "project-l">
-              <a href = "https://veronica-hing.github.io/nyan_cat_game/" target = "_blank">
-                <img src="./images/nyan_cat.png" alt="nyan-cat screenshot">
-              </a>
+              <div class = "container">
+                <a href = "https://veronica-hing.github.io/nyan_cat_game/" target = "_blank">
+                  <img src="./images/nyan_cat.png" alt="nyan-cat screenshot">
+                </a>  
+              </div>
               <div class = "description">
                 <h3>Nyan-cat cookie chaser game</h3>
                 <p>Design and develop game where user plays as nyan-cat and goes on a midnight munchie spree eating all the cookies. User moves nyan-cat via arrowkeys. </p>
                 <h4>Technologies: Vanilla JavaScript, CSS</h4>
               </div>
             </div>
+            <hr>
             <div class = "project-r">
-              <a href = "https://veronica-hing.github.io/todoTiles/" target = "_blank">
-                <img src="./images/todoTiles.png" alt="todo tiles screenshot">
-              </a>
+              <div class="container">
+                <a href = "https://veronica-hing.github.io/todoTiles/" target = "_blank">
+                  <img src="./images/todoTiles.png" alt="todo tiles screenshot">
+                </a>
+              </div>
               <div class = "description">
                 <h3>Todo Tiles</h3>
                 <p>Design and develop web application where user enters a task to be completed which generates a tile. This app uses local storage in case the app is closed, so you can pick up where you left off.</p>
                 <h4>Technologies: Vanilla JavaScript, CSS</h4>
               </div>
             </div>
+            <hr>
             <div class = "project-l">
-              <a href = "https://veronica-hing.github.io/random_quotes/" target = "_blank">
-                <img src="./images/randQuote.png" alt="random quote screenshot">
-              </a>
+              <div class="container">
+                <a href = "https://veronica-hing.github.io/random_quotes/" target = "_blank">
+                  <img src="./images/randQuote.png" alt="random quote screenshot">
+                </a>
+              </div>
               <div class = "description">
                 <h3>Inpirational Quote Generator</h3>
                 <p>Get daily inspiration from a web app. Application randomly cycles through a curated list of quotes.</p>
@@ -106,18 +115,46 @@
       
       <article>
         <a name="contact"></a>
-        <h1>How to Reach Me!</h1>
-        <h2>Email</h2>
-        <p>veronica.m.hing@gmail.com</p>
-        <h2>Location</h2>
-        <p>SF/SJ, CA</p>
-        <div>
-          <a href="https://github.com/veronica-hing" target="_blank">gitHub Button</a>
-          <a href="https://www.linkedin.com/in/veronica-hing-a0196099/" target="_blank">linkedIn Button</a>
-          <a href="https://www.linkedin.com/in/veronica-hing-a0196099/" target="_blank">Download Resume</a>
+        <div class= "contacts">
+          <h1>Contact</h1>
+            <div class ="container">
+              <div class = "contact">
+                <img src="./images/email.png" alt="email icon">
+                <p>Email</p>
+                <p>veronica.m.hing@gmail.com</p>
+              </div>
+              <div class = "contact">
+                <img src="./images/location.png" alt="location icon">
+                <p>Location</p>
+                <p>San Jose, California </p>
+              </div>
+              <div class = "contact">
+                <img src="./images/phone.png" alt="phone icon">
+                <p>Phone</p>
+                <p>(510)837-9607</p>
+              </div>
+              <div class = "contact">
+                <img src="./images/resume.png" alt="resume icon">
+                <p>Resume</p>
+                <p>PDF</p>
+              </div>
+            </div>
+        </div>
+        <div class = "social-media-links">
+          <div class = "container">
+            <a href="https://github.com/veronica-hing" target="_blank">
+              <img src = "./images/GitHub.png">
+            </a>
+            <a href="https://www.linkedin.com/in/veronica-hing-a0196099/" target="_blank">
+              <img src = "images/linkedin.png">
+            </a>
+          </div>
         </div>
       </article>
-    </main>
+      <div class = "tiny-credits">
+        <div>Icons made by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      </div>
+    <!-- </main> -->
     <script src= "main.js"></script>
   </body>
 </html>
