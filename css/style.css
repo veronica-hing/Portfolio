@@ -257,6 +257,10 @@ article {
   .container {
     flex-direction: row;
   }
+
+  .intro {
+    width: 60%;
+  }
   .project-l {
     flex-direction: row;
   }
