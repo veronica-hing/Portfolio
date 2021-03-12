@@ -206,7 +206,7 @@ article {
   display: flex;
   flex-direction: column;
 }
-.contact > img {
+.contact img {
   height: 2rem;
   display: flex;
   margin: auto;
