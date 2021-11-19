@@ -167,7 +167,7 @@ article {
 .portfolio {
   padding: 5rem 0;
   text-align: center;
-  background-color: rgb(10, 100, 100); /*rgb(10,230,230)*/
+  background-color: rgb(10, 230, 230);
 }
 
 .portfolio p {
