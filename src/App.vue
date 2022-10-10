@@ -1,7 +1,7 @@
 <script>
   import LandingCard from './components/LandingCard.vue';
   import ExperienceModals from './components/ExperienceModals.vue';
-  import ModalCard from './components/ModalCard.vue';
+import AboutModal from './components/AboutModal.vue';
 
 
   
@@ -10,20 +10,14 @@
     components: {
     LandingCard,
     ExperienceModals,
-    ModalCard
+    AboutModal
 }
   }
   </script>
 
 <template>
   <LandingCard/>
-  <ModalCard 
-    topic = "About Me" 
-    modalBackground = "blanchedalmond" 
-    modalWidth="10vw"
-    modalHeight="5vh"
-    content = "lorem ipsum thingy things"
-    />
+  <AboutModal/>
   <ExperienceModals/>
 </template>
 

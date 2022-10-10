@@ -43,6 +43,7 @@
         display: flex;
         justify-content: center;
         background-color: v-bind(modalBackground);
+        padding: 1em;
     }
     .modal{
     position: fixed;

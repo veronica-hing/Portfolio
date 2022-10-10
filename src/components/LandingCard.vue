@@ -11,6 +11,9 @@
             <a href="https://www.linkedin.com/in/veronica-hing/" target="_blank">
                 <img src="../assets/icons8-linkedin-50.png" alt="LinkedIn">
             </a>
+            <a href="https://drive.google.com/file/d/1asMDZl1kTuFvXOp6EQ_kFOzkv-OmR-bR/view?usp=sharing" target="_blank">
+                <img src="../assets/icons8-pdf-50.png" alt="Resume">
+            </a>
             <a href="https://thehumblingcurve.com/" target="_blank">
                 <img src="../assets/icons8-typewriter-with-paper-50.png" alt="Blog">
             </a>
