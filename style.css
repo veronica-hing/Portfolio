@@ -1,5 +1,18 @@
-.container{
-    margin: 10vw auto;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #eff6e0;
+    color: #01161e;
+}
+nav{
+    background-color: #598392;
+}
+
+#about{
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
 #about img{
     display:block;
@@ -7,10 +20,16 @@
     height: 250px;
     border-radius: 50%;
     margin: auto;
+    margin-top:5vh;
+    margin-bottom: 5vh;
 }
-.bio{
-    padding-top: 10vh;
+
+#technologies{
+    background-color: #598392;
+    padding-left: 15vw;
+    padding-right:15vw;
 }
+
 .tech{
     background-color: white;
     border-radius: 10px;
@@ -19,7 +38,7 @@
     text-align: center;
     margin: 2%;
     flex: 1 0 12%;
-    box-shadow: 1px 1px 4px 6px #d5cab7;
+    box-shadow: 1px 1px 4px 6px #124559;
 }
 
 .webDev {
@@ -38,13 +57,19 @@
     border-top: 5px solid red;
 }
 
+#projects{
+    background-color: #aec3b0;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
 .project{
-    margin: 20px;
+    padding: 20px;
 }
 .project img{
     width: 40vw;
     height: 50vh;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 a{
