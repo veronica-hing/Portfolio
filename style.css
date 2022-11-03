@@ -1,0 +1,57 @@
+.container{
+    margin: 10vw auto;
+}
+#about img{
+    display:block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+.bio{
+    padding-top: 10vh;
+}
+.tech{
+    background-color: white;
+    border-radius: 10px;
+    height: 50%;
+    width: 30%;
+    text-align: center;
+    margin: 2%;
+    flex: 1 0 12%;
+    box-shadow: 1px 1px 4px 6px #d5cab7;
+}
+
+.webDev {
+    border-top: 5px solid #dcdbd6;
+}
+
+.dataBase {
+    border-top: 5px solid blue;
+}
+
+.language {
+    border-top: 5px solid yellow;
+}
+
+.framework {
+    border-top: 5px solid red;
+}
+
+.project{
+    margin: 20px;
+}
+.project img{
+    width: 40vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+#contact a img{
+    width: 50px;
+}
